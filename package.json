@@ -2,7 +2,7 @@
   "name": "project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://buituan11.github.io/project",
+  "homepage": "http://buituan11.github.io/pl-softs",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",

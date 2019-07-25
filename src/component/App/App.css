@@ -4,4 +4,7 @@
   text-align: center;
   overflow: hidden;
 }
-
+.App a{
+	text-decoration: none;
+	color: black;
+}
