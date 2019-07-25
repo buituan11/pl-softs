@@ -50,16 +50,15 @@ class Header extends Component {
           <div>
            <div className="head-1 container-fluid">
            		<div className="row">
-           			<div className="icon col-md-3">
-           				<NavLink to="/"> <img src="https://res.cloudinary.com/buituan/image/upload/v1562254248/Project1/icon.png" alt="icon"/></NavLink>
+           			<div className="icon col-md-2">
+           				<NavLink to="/"> <img src="https://res.cloudinary.com/buituan/image/upload/v1563977440/Pl-Soft/logo.png" alt="icon"/></NavLink>
            			</div>
-           			<div className="navBar col-md-9">
+           			<div className="navBar col-md-10">
            				<div className="contact container-fluid">
-           					<i className="fas fa-user-circle" />
+           					<i className="fas fa-user-circle"/>
            					<div className="btn-contact">
-           						<button> Yêu cầu gặp trực tiếp </button>
-	           					<button> Bản demo </button>
-	           					<button> Dùng thử ngay </button>
+           						<button> Xem Brochure </button>
+	           					<button> Liên hệ </button>
            					</div>
            					<a href="#"> <i className="fas fa-headphones-alt"/> 000-0000-0000 </a>
            				</div>
@@ -77,10 +76,9 @@ class Header extends Component {
            <div className="head-2 container-fluid">
               <div className="contact-mobile row">
                 <a href="#" style={{color: 'red', fontWeight: 'bold'}} className="col-2">000-0000-0000</a>
-                <a href="#" className="col-4">Yêu cầu gặp trực tiếp</a>
-                <a href="#" className="col-2">Bản Demo</a>
-                <a href="#" className="col-3">Dùng thử ngay</a>
-                <a href="#" className="col-1"><i className="fas fa-user-circle"></i></a>
+                <a href="#" className="col-4">Xem Brochure</a>
+                <a href="#" className="col-3">Bản Demo</a>
+                <a href="#" className="col-2"><i className="fas fa-user-circle"></i></a>
               </div>
               <div className="row">
                 <div className="col-4">
