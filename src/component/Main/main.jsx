@@ -18,7 +18,7 @@ class Main extends Component {
                             <p>PL-Softs!</p>
                             <p>Phần mềm kế toán quản trị chuyên sâu.</p>
                     </div>
-                    <div className="visual-detail">
+                    <div className="visual-detail container-fluid">
                         <div className="visual-detail-left col-md-6">
                             <p>VỀ SẢN PHẨM</p>
                             <div className="visual-detail-figure">

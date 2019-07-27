@@ -3,6 +3,7 @@
   margin: 0px;
   text-align: center;
   overflow: hidden;
+  background-color: red;
 }
 .App a{
 	text-decoration: none;

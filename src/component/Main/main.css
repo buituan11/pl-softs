@@ -9,9 +9,7 @@
 .visual-title{
 	background: url(https://res.cloudinary.com/buituan/image/upload/v1563981162/Pl-Soft/economybanner.jpg) no-repeat fixed;
 	background-position: center center;
-	background-size: 100% 90%;
-	/*z-index: -1;*/
-	text-align: center;
+	background-size: cover;
 	padding: 0px;
 }
 .visual-title p{
@@ -39,18 +37,16 @@
 	}
 }
 .visual-detail{
-	padding: 2% 0px 2% 0px;
-	background: url(https://res.cloudinary.com/buituan/image/upload/v1563981486/Pl-Soft/screen_2x_1.jpg) no-repeat fixed;
-	background-position: center center;
+	padding: 0px;
+	background: url(https://res.cloudinary.com/buituan/image/upload/v1563981486/Pl-Soft/screen_2x_1.jpg) center center no-repeat;
 	background-size: cover;
-	z-index: -1;	
-	text-align: center;
 	color: white;
 }
 .visual-detail-left>p{
 	font-size: 2em;
 	font-weight: bold;
-	padding-bottom: 5%;
+	padding-bottom:5%;
+	line-height: 2;
 }
 .visual-detail-figure{
 	display: flex; justify-content: center;
@@ -149,25 +145,12 @@
 		grid-template-columns: repeat(2, minmax(60%,1fr));
 	}
 	.diamond-top{
-		top: -8%;
+		display: none;
 	}
 	.diamond-bottom{
-		bottom: -10%;
+		display: none;
 	}
-	.diamond {
-      border: 5px solid transparent;
-      border-bottom: 8px solid var(--blackColor);
-      position: relative;
-      top: -6px;
-    }
-    .diamond:after {
-      content: '';
-      position: absolute;
-      left: -5px;
-      top: 6px;
-      border: 5px solid transparent;
-      border-top: 8px solid var(--blackColor);
-    }
+
 }
 
 .feature-detail{
