@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/pl-softs/static/css/main.ad8d2535.chunk.css",
-    "main.js": "/pl-softs/static/js/main.d8bdab68.chunk.js",
-    "main.js.map": "/pl-softs/static/js/main.d8bdab68.chunk.js.map",
+    "main.css": "/pl-softs/static/css/main.e5b8b18f.chunk.css",
+    "main.js": "/pl-softs/static/js/main.21ec396d.chunk.js",
+    "main.js.map": "/pl-softs/static/js/main.21ec396d.chunk.js.map",
     "runtime~main.js": "/pl-softs/static/js/runtime~main.c1d5a71b.js",
     "runtime~main.js.map": "/pl-softs/static/js/runtime~main.c1d5a71b.js.map",
     "static/js/2.21767ef2.chunk.js": "/pl-softs/static/js/2.21767ef2.chunk.js",
     "static/js/2.21767ef2.chunk.js.map": "/pl-softs/static/js/2.21767ef2.chunk.js.map",
     "index.html": "/pl-softs/index.html",
-    "precache-manifest.d0e155ee82db6d64d782469cd4e4a38e.js": "/pl-softs/precache-manifest.d0e155ee82db6d64d782469cd4e4a38e.js",
+    "precache-manifest.dd5c3d3ce9cc860aa66621b12c712b57.js": "/pl-softs/precache-manifest.dd5c3d3ce9cc860aa66621b12c712b57.js",
     "service-worker.js": "/pl-softs/service-worker.js",
-    "static/css/main.ad8d2535.chunk.css.map": "/pl-softs/static/css/main.ad8d2535.chunk.css.map"
+    "static/css/main.e5b8b18f.chunk.css.map": "/pl-softs/static/css/main.e5b8b18f.chunk.css.map"
   }
 }
