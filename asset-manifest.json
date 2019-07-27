@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pl-softs/static/css/main.f16454df.chunk.css",
+    "main.css": "/pl-softs/static/css/main.48976c9d.chunk.css",
     "main.js": "/pl-softs/static/js/main.fe4693a7.chunk.js",
     "main.js.map": "/pl-softs/static/js/main.fe4693a7.chunk.js.map",
     "runtime~main.js": "/pl-softs/static/js/runtime~main.c1d5a71b.js",
@@ -8,8 +8,8 @@
     "static/js/2.21767ef2.chunk.js": "/pl-softs/static/js/2.21767ef2.chunk.js",
     "static/js/2.21767ef2.chunk.js.map": "/pl-softs/static/js/2.21767ef2.chunk.js.map",
     "index.html": "/pl-softs/index.html",
-    "precache-manifest.fb2dab951a680212e31f5b2810b7612d.js": "/pl-softs/precache-manifest.fb2dab951a680212e31f5b2810b7612d.js",
+    "precache-manifest.88010bf79111b72599f697fcd08dfd78.js": "/pl-softs/precache-manifest.88010bf79111b72599f697fcd08dfd78.js",
     "service-worker.js": "/pl-softs/service-worker.js",
-    "static/css/main.f16454df.chunk.css.map": "/pl-softs/static/css/main.f16454df.chunk.css.map"
+    "static/css/main.48976c9d.chunk.css.map": "/pl-softs/static/css/main.48976c9d.chunk.css.map"
   }
 }
