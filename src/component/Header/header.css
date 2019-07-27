@@ -171,7 +171,7 @@
 	top: 0px;
 	right: 0px;
 	height: 100%;
-	max-width: 10em;
+	max-width: 13em;
 	width: 100%;
 	color: #CCCCCC;
 	background-color: #55565D;
@@ -182,7 +182,7 @@
 	color: inherit;
 	background-color: #333333;
 	position: absolute;
-	left: -2em;
+	left: -2.5em;
 }
 .nav{
 	align-items: baseline;
@@ -208,6 +208,9 @@
 	}
 	.head-2{
 		display: block;
+	}
+	.head-2 img{
+		width: 50%;
 	}
 	.contact-mobile button{
 		font-size: 0.75em;

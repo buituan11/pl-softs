@@ -45,6 +45,15 @@ class Header extends Component {
         t.style.display = "none";
       }
     }
+    showSubRoute =(str)=>{
+      console.log(str);
+      let t= document.getElementById(str);
+      if (t.style.display === "none"){
+        t.style.display = "block";
+      }else {
+        t.style.display = "none";
+      }
+    }
     render() {
         return (
           <div>
@@ -82,7 +91,7 @@ class Header extends Component {
               </div>
               <div className="row">
                 <div className="col-4">
-                  <NavLink to="/"> <img src="https://res.cloudinary.com/buituan/image/upload/v1562254248/Project1/icon.png" alt=""/> </NavLink>
+                  <NavLink to="/"> <img src="https://res.cloudinary.com/buituan/image/upload/v1563977440/Pl-Soft/logo.png" alt=""/> </NavLink>
                 </div>
                 <div className="menu-mobile col-8 container-fluid">
                   <i onClick={()=> this.showNavBar() }className="fas fa-bars"></i>
@@ -97,7 +106,9 @@ class Header extends Component {
                           <ul id={"submenu-"+index.toString()} style={{display: "none"}}>
                             { item.routes.map((e, index)=>
                                 <li key={index}>
-                                  <NavLink to={`${e.path}/${e.subroute[0].id}`}> {e.title} </NavLink>
+                                  <NavLink to={`${e.path}/${e.subroute[0].id}`}> 
+                                    {e.title} 
+                                  </NavLink>
                                 </li>
                             )}
                           </ul>

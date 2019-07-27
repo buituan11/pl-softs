@@ -12,31 +12,19 @@ class Footer extends Component {
             	<div className="location col-md-4">
             		<a href="#">
 	            		<i className="fas fa-map-marker-alt"></i> LIÊN HỆ:<br/>
-						Lầu 6, 51 Nguyễn Cư Trinh, Phường Nguyễn Cư Trinh,<br/>
-						Quận 1, Hồ Chí Minh, Việt Nam <br/> <br/>
+						453KA/35A Lê Văn Sỹ P.12 Q.3 TP.HCM<br/><br/>
 					</a>
-					<a href="#"><i className="fas fa-phone"></i> 028-3837-3100<br/></a>
-					<a href="#"><i className="fas fa-envelope"></i> askmail@ecount.vn<br/></a>
-					<a href="#"><i className="fab fa-skype"></i>Skype ID : EcountERP-Viet</a>
+					<a href="#"><i className="fas fa-phone"></i> 0903.8.29137<br/><br/></a>
+					<a href="#"><i className="fas fa-envelope"></i> pl.softs.2019@gmail.vn<br/><br/></a>
             	</div>
             	<div className="menu-footer col-md-5">
             		<p><i className="fas fa-bars"></i> MENU</p>
             		<ul>
-            			<li>
-            				<a href="#">Tính năng ERP</a>
-            			</li>
-            			<li>
-            				<a href="#">VỀ ECOUNT ERP</a>
-            			</li>
-            			<li>
-            				<a href="#">DICH VỤ</a>
-            			</li>
-            			<li>
-            				<a href="#">SẢN PHẨM</a>
-            			</li>
-            			<li>
-            				<a href="#">GIỚI THIỆU</a>
-            			</li>
+                        {this.props.mainRoute.map((item, index) =>
+                            <li key={index}>
+                                <a href="#">{item.title}</a>
+                            </li>    
+                        )}
             		</ul>
             		<p><i className="fas fa-globe-asia"></i> GLOBAL SITES</p>
             	</div>

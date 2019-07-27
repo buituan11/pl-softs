@@ -1,7 +1,7 @@
 .content-page{
 	display: flex;
 	flex-direction: row;
-	padding-top: 100px;
+	padding-top: 130px;
 	padding-left: 5%;
 	padding-right: 5%;
 }
@@ -26,6 +26,9 @@
 	flex-direction: column;
 }
 @media screen and (max-width: 480px) {
+	.content-page{
+		padding-top: 100px;
+	}
 	.hidden-side-bar{
 		display: none;
 	}

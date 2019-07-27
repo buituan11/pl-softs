@@ -222,7 +222,7 @@ class App extends Component {
               )}
               <Route component={ NoMatch }/>
             </Switch>
-            <Footer/>
+            <Footer mainRoute={this.state.mainRoute}/>
           </div> 
         </Router>
         );

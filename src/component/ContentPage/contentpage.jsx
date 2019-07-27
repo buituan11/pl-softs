@@ -56,24 +56,3 @@ class Content extends Component {
 }
 
 export default Content;
-  //   render() {
-  //       return (
-  //       <Router>
-		// 	<div className="content-page container-fluid">
-		// 	<div className="row">
-		// 		<div className="side-bar col-md-3">
-		// 			<h1>{this.props.sidebar.title}</h1>
-		// 				<ul>
-		// 					{ this.showSideBar( this.props.sidebar )}
-		// 				</ul>
-		// 		</div>
-		// 		{this.props.sidebar.routes.map((item) =>
-		// 			item.subroute.map((e, index) =>
-		// 				<Route key={index} exact path={e.path} component={ ()=> this.showItem(e.title) }/>
-		// 			)
-		// 		)}
-		// 	</div>
-		// 	</div>      
-		// </Router>      
-  //       );
-  //   }

@@ -69,7 +69,7 @@ class Main extends Component {
                       </div>
                       <div className="form-group">
                         <label htmlFor="exampleText">Nội dung</label>
-                        <textarea class="form-control"></textarea>
+                        <textarea className="form-control"></textarea>
                       </div>
                       <button type="submit" className="btn btn-primary">Xác nhận</button>
                     </form>
