@@ -1,0 +1,51 @@
+.product{
+	background: url(https://res.cloudinary.com/buituan/image/upload/v1564332930/Pl-Soft/Feature-Rootstock.jpg) center center;
+	background-size: cover;
+	color: white;
+}
+.product h1{
+	font-size: 2em;
+	background-color: #000000b3;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	text-decoration: underline;
+}
+.product>p{
+	background-color: #000000b3;
+	font-size: 1.5em;
+	padding-bottom: 2%;
+}
+.product>ol{
+	background-color: #000000b3;
+	text-align: left;
+	padding-left: 30%;
+	padding-bottom: 2%;
+	list-style-type: decimal;
+}
+.product>ol p{
+	font-size: 1em;
+	padding-bottom: 1%;
+}
+.comming-product{
+	font-size: 1.5em;
+	font-weight: bold;
+	color: black;
+	background-color: white;
+	padding: 1% 0%;
+	text-decoration: underline;
+}
+@media screen and (max-width: 560px) {
+	.product h1{
+		font-size: 1.5em;
+	}
+	.product>p{
+		font-size: 1em;
+		padding: 0px 10% 2% 10%;
+	}
+	.product>ol{
+		padding-right: 10%;
+	}
+	.comming-product{
+		font-size: 1em;
+	}
+}

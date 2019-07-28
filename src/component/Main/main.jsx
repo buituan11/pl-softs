@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './main.css';
 import Comment from './Comment/comment.jsx';
+import Visual from '../Visual/visual.jsx';
+import ContactUs from '../ContactUs/contact.jsx';
 import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
 
 class Main extends Component {
@@ -13,12 +15,8 @@ class Main extends Component {
     render() {
         return (	
             <div className="main container-fluid">
-            	<div className="visual container-fluid">
-                    <div className="visual-title container-fluid">
-                            <p>PL-Softs!</p>
-                            <p>Phần mềm kế toán quản trị chuyên sâu.</p>
-                    </div>
-                    <div className="visual-detail container-fluid">
+            	<Visual/>
+                <div className="visual-detail container-fluid">
                         <div className="visual-detail-left col-md-6">
                             <p>VỀ SẢN PHẨM</p>
                             <div className="visual-detail-figure">
@@ -26,13 +24,12 @@ class Main extends Component {
                                 <p>Hiệu quả tài chính doanh nghiệp vượt bậc</p>
                             </div>
                             <button className="btn-black">
-                                <NavLink to={`${this.props.mainRoute[0].routes[0].path}/${this.props.mainRoute[0].routes[0].subroute[0].id}`}>
+                                <NavLink to={`${this.props.mainRoute[0].path}`}>
                                     Tìm hiểu thêm
                                 </NavLink>
                             </button>
                         </div>
                     </div>
-                </div>
                 <div className="feature">
                     <div className="row">
                         <div className="feature-content col-md-6">
@@ -56,24 +53,7 @@ class Main extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="contact-us">
-                    <p>Để lại lời nhắn</p>
-                    <form>
-                      <div className="form-group">
-                        <label htmlFor="exampleName">Tên</label>
-                        <input type="text" className="form-control" id="exampleName" placeholder="Họ và tên" />
-                      </div>
-                      <div className="form-group">
-                        <label htmlFor="exampleInputEmail">Email address</label>
-                        <input type="email" className="form-control" id="exampleInputEmail" aria-describedby="emailContact" placeholder="Enter email" />
-                      </div>
-                      <div className="form-group">
-                        <label htmlFor="exampleText">Nội dung</label>
-                        <textarea className="form-control"></textarea>
-                      </div>
-                      <button type="submit" className="btn btn-primary">Xác nhận</button>
-                    </form>
-                </div>
+                <ContactUs/>
             </div>
         );
     }

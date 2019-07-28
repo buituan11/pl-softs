@@ -5,6 +5,7 @@ import Main from '../Main/main.jsx';
 import Footer from '../Footer/footer.jsx';
 import Content from '../ContentPage/contentpage.jsx';
 import NoMatch from '../NoMatch/nomatch.jsx';
+import Product from '../Product/product.jsx';
 import { BrowserRouter as Router, Route, NavLink,Switch } from "react-router-dom";
 
 class App extends Component {
@@ -14,6 +15,7 @@ class App extends Component {
           mainRoute:[
             {
               title: "SẢN PHẨM",
+              path: "/san-pham",
                 routes:[
                   {
                     title: "NỀN TẢNG WEB",
@@ -215,11 +217,12 @@ class App extends Component {
             <Switch>
               <Route exact path={process.env.PUBLIC_URL+'/'} component={ () => this.RenderMain() }/>
               <Route exact path={'/'} component={ () => this.RenderMain() }/>
-              {this.state.mainRoute.map(item =>
+              {/*{this.state.mainRoute.map(item =>
                   item.routes.map((e, index)=>
                     <Route key={index} path={ `${e.path}/:id` } component={ ({match})=>this.RenderContent( item, {match})}/>                    
                   )
-              )}
+              )}  */}
+              <Route exact path={`${this.state.mainRoute[0].path}`}component={ Product }/>  
               <Route component={ NoMatch }/>
             </Switch>
             <Footer mainRoute={this.state.mainRoute}/>

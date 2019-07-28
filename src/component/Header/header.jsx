@@ -74,8 +74,8 @@ class Header extends Component {
            				<nav className="menu container-fluid">		
                     {this.props.mainRoute.map((item, index) =>
                         <div key={index} className="menu1">
-                          <NavLink to={ `${item.routes[0].path}/${item.routes[0].subroute[0].id}` }> {item.title} </NavLink>                           
-                          { this.showMenu2(item.title, "TÍNH NĂNG", item)} 
+                          <NavLink to={ `${item.path}` }> {item.title} </NavLink>                           
+                          {/* { this.showMenu2(item.title, "TÍNH NĂNG", item)} */}
                         </div>
                     )}
            				</nav>
@@ -101,9 +101,9 @@ class Header extends Component {
                       <div key={index}>
                         <div className="nav">
                           <NavLink to={ `${item.routes[0].path}/${item.routes[0].subroute[0].id}` }> {item.title}</NavLink>
-                          &nbsp;&nbsp; <i onClick={()=> this.showSubMenu(index)}className="fas fa-chevron-down"></i>
+                          {/* &nbsp;&nbsp; <i onClick={()=> this.showSubMenu(index)}className="fas fa-chevron-down"></i> */}
                         </div>     
-                          <ul id={"submenu-"+index.toString()} style={{display: "none"}}>
+                          {/*<ul id={"submenu-"+index.toString()} style={{display: "none"}}>
                             { item.routes.map((e, index)=>
                                 <li key={index}>
                                   <NavLink to={`${e.path}/${e.subroute[0].id}`}> 
@@ -111,7 +111,7 @@ class Header extends Component {
                                   </NavLink>
                                 </li>
                             )}
-                          </ul>
+                          </ul>  */}
                       </div>
                     )}
                   </div>

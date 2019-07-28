@@ -1,0 +1,37 @@
+.contact-us{
+	background: url(https://res.cloudinary.com/buituan/image/upload/v1564052532/Pl-Soft/contact.png) center center;
+	background-size: cover;
+	padding: 2% 25%;
+}
+.contact-us p{
+	color: white;
+	font-size: 2em;
+	padding-bottom: 2%;
+}
+.contact-us>form{
+	background-color: white;
+	border-radius: 10px;
+	padding: 5%;
+	text-align: left;
+}
+.contact-us>form label{
+	font-size: 2em;
+	color: black;
+}
+.contact-us>form input{
+	width: 40%;
+}
+.contact-us>form textarea{
+	width: 100%;
+}
+@media screen and (max-width: 480px) {
+	.contact-us p{
+		font-size: 1.5em;
+	}
+	.contact-us{
+		padding: 2% 5%;
+	}
+	.contact-us>form label{
+		font-size: 1.5em;
+	}
+}
