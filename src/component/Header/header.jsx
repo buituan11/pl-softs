@@ -100,7 +100,7 @@ class Header extends Component {
                     {this.props.mainRoute.map((item, index)=>
                       <div key={index}>
                         <div className="nav">
-                          <NavLink to={ `${item.routes[0].path}/${item.routes[0].subroute[0].id}` }> {item.title}</NavLink>
+                          <NavLink to={ `${item.path}` }> {item.title}</NavLink>
                           {/* &nbsp;&nbsp; <i onClick={()=> this.showSubMenu(index)}className="fas fa-chevron-down"></i> */}
                         </div>     
                           {/*<ul id={"submenu-"+index.toString()} style={{display: "none"}}>
