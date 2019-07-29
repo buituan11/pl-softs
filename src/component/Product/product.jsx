@@ -14,41 +14,17 @@ class Product extends Component {
         <div>
             <Visual/>
         	<div className="product">
-        		<h1>TÍNH NĂNG</h1>
-        		<p>Phần mềm kế toán trọn gói PL Accounting FA1.1 có các tính năng sau đây</p>
-        		<ol>
-        			<li>
-        				<p>Quản lí hệ thống</p>
-        			</li>
-        			<li>
-        				<p>Kế toán tổng hợp</p>
-        			</li>
-        			<li>
-        				<p>Kế toán vốn bằng tiền</p>
-        			</li>
-        			<li>
-        				<p>Kế toán bán hàng và công nợ phải thư</p>
-        			</li>
-        			<li>
-        				<p>Kế toán mua hàng và công nợ phải trả</p>
-        			</li>
-        			<li>
-        				<p>Kế toán hàng tồn kho</p>
-        			</li>
-        			<li>
-        				<p>Kế toán tập hợp chi phí</p>
-        			</li>
-        			<li>
-        				<p>Kế toán tài sản cố định</p>
-        			</li>
-        			<li>
-        				<p>Báo cáo thuế</p>
-        			</li>
-        			<li>
-        				<p>Báo cáo tài chính</p>
-        			</li>
-        		</ol>
-        	</div>
+                <h1>SẢN PHẨM</h1>
+                <p>14 năm kinh nghiệm tư vấn giải pháp doanh nghiệp</p>
+                <p>Tính năng tài chính kế toán ưu việt</p>
+                <p>Nâng cao tầm doanh nghiệp của bạn lên mức tự động vận hành</p>
+                <div className="product-content">
+                    <h1>NỘI DUNG</h1> <h1>GIÁ</h1>
+                    <p>Tư vấn giải pháp doanh nghiếp</p> <p>FREE</p>
+                    <p>Tài chính, kế toán ưu việt</p> <p>$3/ngày</p>
+                    <p>Quản trị nguồn lực(ERP)</p> <p>Theo dự án</p>
+                </div>
+            </div>
             <p className="comming-product">COMMING SOON</p>
             <ContactUs/>
         </div>

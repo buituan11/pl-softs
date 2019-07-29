@@ -1,0 +1,12 @@
+.no-match{
+	padding-top: 100px;
+}
+.no-match>h1{
+	font-size: 200px;
+}
+
+@media screen and (max-width:480px) {
+	.no-match>h1{
+		font-size: 80px;
+	}
+}

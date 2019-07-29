@@ -91,7 +91,7 @@ class Header extends Component {
               </div>
               <div className="row">
                 <div className="col-4">
-                  <NavLink to="/"> <img src="https://res.cloudinary.com/buituan/image/upload/v1563977440/Pl-Soft/logo.png" alt=""/> </NavLink>
+                  <NavLink to="/"> <img src="https://res.cloudinary.com/buituan/image/upload/v1563977440/Pl-Soft/logo.png" alt="" className="logo-mobile"/> </NavLink>
                 </div>
                 <div className="menu-mobile col-8 container-fluid">
                   <i onClick={()=> this.showNavBar() }className="fas fa-bars"></i>

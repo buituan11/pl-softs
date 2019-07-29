@@ -1,0 +1,34 @@
+.about{
+	background: url(https://res.cloudinary.com/buituan/image/upload/v1564424047/Pl-Soft/anh_nd_sp.jpg) center center;
+	background-size: cover;
+}
+.about>h1, .about>p{
+	background-color: #808080c7;
+	color: white;
+	padding: 2% 0px;
+}
+.about>h1{
+	font-size: 2em;
+	text-decoration: underline;
+}
+.about>p{
+	font-size: 1.15em;
+	padding: 2% 15%;
+}
+@media screen and (max-width: 480px){
+	.about>h1{
+		font-size: 1em;
+	}
+	.about>p{
+		font-size: 0.75em;
+		padding: 2% 5%;
+	}
+}
+.comming-about{
+	font-size: 1.5em;
+	font-weight: bold;
+	color: black;
+	background-color: white;
+	padding: 1% 0%;
+	text-decoration: underline;
+}

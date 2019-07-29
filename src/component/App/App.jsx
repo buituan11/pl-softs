@@ -3,9 +3,10 @@ import './App.css';
 import Header from '../Header/header.jsx';
 import Main from '../Main/main.jsx';
 import Footer from '../Footer/footer.jsx';
-import Content from '../ContentPage/contentpage.jsx';
 import NoMatch from '../NoMatch/nomatch.jsx';
 import Product from '../Product/product.jsx';
+import Func from '../Func/func.jsx';
+import About from '../About/about.jsx';
 import { BrowserRouter as Router, Route, NavLink,Switch } from "react-router-dom";
 
 class App extends Component {
@@ -96,6 +97,7 @@ class App extends Component {
             },
             {
               title: "TÍNH NĂNG",
+              path: "/tinh-nang",
                 routes:[
                   {
                     title: "GIẢI PHÁP HỢP LÝ",
@@ -162,6 +164,7 @@ class App extends Component {
             },      
             {
               title: "GIỚI THIỆU",
+              path: "/about",
                 routes:[
                   {
                     title: "GIỚI THIỆU",
@@ -196,12 +199,6 @@ class App extends Component {
           ]
         }
     }
-
-    RenderContent = ( menu, {match} ) => {
-      return (
-          <Content sidebar={ menu } match={match}/>
-      );
-    }
     RenderMain = () => {
       return (
           <Main 
@@ -223,6 +220,8 @@ class App extends Component {
                   )
               )}  */}
               <Route exact path={`${this.state.mainRoute[0].path}`}component={ Product }/>  
+              <Route exact path={`${this.state.mainRoute[1].path}`}component={ Func }/>  
+              <Route exact path={`${this.state.mainRoute[3].path}`}component={ About }/>
               <Route component={ NoMatch }/>
             </Switch>
             <Footer mainRoute={this.state.mainRoute}/>

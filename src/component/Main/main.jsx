@@ -46,7 +46,7 @@ class Main extends Component {
                             <p>Tính năng tài chính, kế toán ưu việt.</p>
                             <p>Nâng cấp doanh nghiệp của bạn lên mức tự động vận hành.</p>
                             <button className="btn-black">
-                                <NavLink to={`${this.props.mainRoute[1].routes[0].path}/${this.props.mainRoute[1].routes[0].subroute[0].id}`}>
+                                <NavLink to={`${this.props.mainRoute[1].path}`}>
                                     Tìm hiểu thêm
                                 </NavLink>
                             </button>
