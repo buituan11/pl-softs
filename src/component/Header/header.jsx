@@ -59,19 +59,17 @@ class Header extends Component {
           <div>
            <div className="head-1 container-fluid">
            		<div className="row">
-           			<div className="icon col-md-2">
+           			<div className="icon col-3">
            				<NavLink to="/"> <img src="https://res.cloudinary.com/buituan/image/upload/v1563977440/Pl-Soft/logo.png" alt="icon"/></NavLink>
            			</div>
-           			<div className="navBar col-md-10">
-           				<div className="contact container-fluid">
+           			<div className="col-9">
+           				<div className="contact">
            					<i className="fas fa-user-circle"/>
-           					<div className="btn-contact">
-           						<button> Xem Brochure </button>
-	           					<button> Liên hệ </button>
-           					</div>
-           					<a href="#"> <i className="fas fa-headphones-alt"/> 000-0000-0000 </a>
+                    <button> Xem Brochure </button>
+                    <button> Liên hệ </button>
+           					<NavLink to={this.props.mainRoute[3].path}><i className="fas fa-headphones-alt"/> 0903.8.29137</NavLink>
            				</div>
-           				<nav className="menu container-fluid">		
+           				<nav className="menu">		
                     {this.props.mainRoute.map((item, index) =>
                         <div key={index} className="menu1">
                           <NavLink to={ `${item.path}` }> {item.title} </NavLink>                           

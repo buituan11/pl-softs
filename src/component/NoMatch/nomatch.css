@@ -5,7 +5,7 @@
 	font-size: 200px;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:768px) {
 	.no-match>h1{
 		font-size: 80px;
 	}

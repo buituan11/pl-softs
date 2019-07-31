@@ -17,7 +17,7 @@ class Main extends Component {
             <div className="main container-fluid">
             	<Visual/>
                 <div className="visual-detail container-fluid">
-                        <div className="visual-detail-left col-md-6">
+                        <div className="visual-detail-left col-md-7">
                             <p>VỀ SẢN PHẨM</p>
                             <div className="visual-detail-figure">
                                 <p>287%</p>

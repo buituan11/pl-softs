@@ -14,7 +14,7 @@
 	font-size: 1.5em;
 	margin-bottom: 2%;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
 	.product>h1{
 		font-size: 1.5em;
 	}
@@ -47,7 +47,7 @@
 	padding: 1% 0%;
 	text-decoration: underline;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
 	.product-content{
 		margin: 0px 10%;
 		/*padding: 1%;*/

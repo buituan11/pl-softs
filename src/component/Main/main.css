@@ -49,7 +49,7 @@
       border: 10px solid transparent;
       border-top: 15px solid var(--blackColor);
     }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
 	.feature-content{
 		grid-template-columns: repeat(2, minmax(60%,1fr));
 	}
@@ -80,7 +80,7 @@
 }
 .feature-detail>button:hover{ background-color: var(--blackColor);}
 .feature-detail>button:hover a{ color: white; }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
 	.feature-detail{
 		padding-top: 10px;
 	}

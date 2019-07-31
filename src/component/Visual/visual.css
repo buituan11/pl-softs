@@ -1,6 +1,6 @@
 .visual{
 	padding: 0px;
-	padding-top: 5%;
+	padding-top: 2%;
 }
 .visual-title{
 	background: url(https://res.cloudinary.com/buituan/image/upload/v1563981162/Pl-Soft/economybanner.jpg) no-repeat;
@@ -13,17 +13,17 @@
 }
 .visual-title p:nth-child(1){
 	color: white;
-	font-size: 5em;
+	font-size: 4em;
 	font-weight: bold;
 	padding-top: 10%;
 	padding-bottom: 2%;
 }
 .visual-title p:nth-child(2){
 	color: white;
-	font-size: 3em;
+	font-size: 2em;
 	padding-bottom: 5%;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
 	.visual-title p:nth-child(1){
 		font-size: 2em;
 		padding-top: 20%;
@@ -33,8 +33,8 @@
 	}
 }
 .visual-detail{
-	padding: 0px;
-	background: url(https://res.cloudinary.com/buituan/image/upload/v1563981486/Pl-Soft/screen_2x_1.jpg) center center no-repeat;
+	padding: 2% 0px;
+	background: url(https://res.cloudinary.com/buituan/image/upload/v1563981486/Pl-Soft/screen_2x_1.jpg)  no-repeat;
 	background-size: cover;
 	color: white;
 }
@@ -49,7 +49,7 @@
 	padding-bottom: 5%;
 }
 .visual-detail-figure>p:nth-child(1){
-	padding-left: 25%;
+	padding-left: 20%;
 	font-size: 3em;
 }
 .visual-detail-figure>p:nth-child(2){
@@ -70,7 +70,7 @@
 	/*border: none;*/
 	background-color: black;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
 	.visual-detail-left>p{
 		font-size: 1.5em;
 	}
