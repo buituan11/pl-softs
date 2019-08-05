@@ -1,0 +1,36 @@
+.service{
+	background: url(https://res.cloudinary.com/buituan/image/upload/v1564992261/Pl-Soft/dvu.png) center center;
+	background-size: cover;
+	color: white;
+	padding: 5%;	
+}
+.service h1{
+	font-size: 2em;
+	text-decoration: underline;
+	margin-bottom: 5%;
+}
+.service ul {
+	list-style-type: circle;
+	margin-left: 40%;
+}
+.service ul li p{
+	text-align: left;
+	font-size: 1.15em;
+	margin-bottom: 2%;
+}
+.comming-service{
+	font-size: 1.5em;
+	font-weight: bold;
+	color: black;
+	background-color: white;
+	padding: 1% 0%;
+	text-decoration: underline;
+}
+@media screen and (max-width: 768px) {
+	.service ul{
+		margin-left: 20%;
+	}
+	.service h1{
+		font-size: 1.5em;
+	}
+}

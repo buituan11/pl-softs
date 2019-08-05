@@ -10,6 +10,7 @@
 }
 .visual-title p{
 	background-color: #00000085;
+	font-style: italic;
 }
 .visual-title p:nth-child(1){
 	color: white;
@@ -32,58 +33,3 @@
 		font-size: 1em;
 	}
 }
-.visual-detail{
-	padding: 2% 0px;
-	background: url(https://res.cloudinary.com/buituan/image/upload/v1563981486/Pl-Soft/screen_2x_1.jpg)  no-repeat;
-	background-size: cover;
-	color: white;
-}
-.visual-detail-left>p{
-	font-size: 2em;
-	font-weight: bold;
-	padding-bottom:5%;
-	line-height: 2;
-}
-.visual-detail-figure{
-	display: flex; justify-content: center;
-	padding-bottom: 5%;
-}
-.visual-detail-figure>p:nth-child(1){
-	padding-left: 20%;
-	font-size: 3em;
-}
-.visual-detail-figure>p:nth-child(2){
-	padding-left: 5%;
-	font-size: 2em;
-}
-.visual-detail-left>button{
-	background-color: #000000a6;
-	border: 1px solid black;
-	padding: 3%;
-	font-size: 2em;
-	border-radius: 14px;	
-}
-.visual-detail-left a{
-	color: white;
-}
-.visual-detail-left>button:hover{
-	/*border: none;*/
-	background-color: black;
-}
-@media screen and (max-width: 768px) {
-	.visual-detail-left>p{
-		font-size: 1.5em;
-	}
-	.visual-detail-figure>p:nth-child(1){
-		padding-left: 10%;
-		font-size: 1.75em;
-	}
-	.visual-detail-figure>p:nth-child(2){
-		padding-left: 3%;
-		font-size: 1.5em;
-	}
-	.visual-detail-left>button{
-		padding: 3%;
-		font-size: 1em;
-	}
-}	

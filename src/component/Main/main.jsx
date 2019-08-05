@@ -35,10 +35,14 @@ class Main extends Component {
                         <div className="feature-content col-md-6">
                             <div className="diamond-top"><div className="diamond"></div></div>
                             <div className="diamond-bottom"><div className="diamond"></div></div>
-                            <h1>NỘI DUNG</h1> <h1>GIÁ</h1>
-                            <p>Tư vấn giải pháp doanh nghiếp</p> <p>FREE</p>
-                            <p>Tài chính, kế toán ưu việt</p> <p>$3/ngày</p>
-                            <p>Quản trị nguồn lực(ERP)</p> <p>Theo dự án</p>
+                            <div className="feature-content-title">
+                                <h1>NỘI DUNG</h1> <h1>GIÁ</h1>
+                            </div>
+                            <div className="feature-content-detail">
+                                <p>Tư vấn giải pháp doanh nghiếp</p> <p>FREE</p>
+                                <p>Tài chính, kế toán ưu việt</p> <p>$3/ngày</p>
+                                <p>Quản trị nguồn lực(ERP)</p> <p>Theo dự án</p>
+                            </div>
                         </div>
                         <div className="feature-detail col-md-6">
                             <h1>TÍNH NĂNG</h1>

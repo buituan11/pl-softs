@@ -17,10 +17,11 @@ class About extends Component {
             	<Visual/>
             	<div className="about">
             		<h1>VỀ CHÚNG TÔI</h1>
-            		<p>CHÚNG TÔI LÀ mỘT CÔNG TY PHÁT TRIỂN, TƯ VẤN VÀ TRIỂN KHAI ỨNG DỤNG PHẦN MỀM 
-            		VÀ GIẢI PHÁP QUẢN TRỊ DOANH NGHIỆP TRÊN NỀN TẢNG CNTT.</p>
-            		<p>CHÚNG TÔI ĐÃ HỖ TRỢ NHIỂU TỔ CHỨC KHÁC NHAU</p>
-            		<p>CHỌN LỌC VÀ ĐÓNG GÓI CÁC GIẢI PHÁP ĐẶC THÙ CHO TỪNG MÔ HÌNH DOANH NGHIỆP, GIÚP DOANH NGHIỆP TỐI ĐA HÓA LỢI NHUẬN</p>
+            		<p>CHÚNG TÔI LÀ mỘT CÔNG TY PHÁT TRIỂN, TƯ VẤN VÀ TRIỂN KHAI ỨNG DỤNG <br/>
+                    PHẦN MỀM VÀ GIẢI PHÁP QUẢN TRỊ DOANH NGHIỆP TRÊN NỀN TẢNG CNTT.</p>
+            		<p>CHÚNG TÔI ĐÃ HỖ TRỢ NHIỂU TỔ CHỨC KHÁC NHAU <bt/>
+                    CHỌN LỌC VÀ ĐÓNG GÓI CÁC GIẢI PHÁP ĐẶC THÙ CHO TỪNG MÔ HÌNH DOANH NGHIỆP, <br/>
+                    GIÚP DOANH NGHIỆP TỐI ĐA HÓA LỢI NHUẬN</p>
             	</div>
 	            <p className="comming-about">COMMING SOON</p>
 	            <ContactUs/>

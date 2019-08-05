@@ -5,18 +5,18 @@
 }
 .func h1{
 	font-size: 2em;
-	background-color: #000000b3;
+	background-color: #000000d6;
 	padding-top: 2%;
 	padding-bottom: 2%;
 	text-decoration: underline;
 }
 .func>p{
-	background-color: #000000b3;
+	background-color: #000000d6;
 	font-size: 1.5em;
 	padding-bottom: 2%;
 }
 .func>ol{
-	background-color: #000000b3;
+	background-color: #000000d6;
 	text-align: left;
 	padding-left: 30%;
 	padding-bottom: 2%;

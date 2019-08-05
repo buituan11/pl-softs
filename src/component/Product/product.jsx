@@ -19,10 +19,14 @@ class Product extends Component {
                 <p>Tính năng tài chính kế toán ưu việt</p>
                 <p>Nâng cao tầm doanh nghiệp của bạn lên mức tự động vận hành</p>
                 <div className="product-content">
-                    <h1>NỘI DUNG</h1> <h1>GIÁ</h1>
-                    <p>Tư vấn giải pháp doanh nghiếp</p> <p>FREE</p>
-                    <p>Tài chính, kế toán ưu việt</p> <p>$3/ngày</p>
-                    <p>Quản trị nguồn lực(ERP)</p> <p>Theo dự án</p>
+                    <div className="product-content-title">
+                        <h1>NỘI DUNG</h1> <h1>GIÁ</h1>
+                    </div>
+                    <div className="product-content-detail">
+                        <p>Tư vấn giải pháp doanh nghiếp</p> <p>FREE</p>
+                        <p>Tài chính, kế toán ưu việt</p> <p>$3/ngày</p>
+                        <p>Quản trị nguồn lực(ERP)</p> <p>Theo dự án</p>
+                    </div>
                 </div>
             </div>
             <p className="comming-product">COMMING SOON</p>

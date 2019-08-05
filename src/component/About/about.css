@@ -14,6 +14,7 @@
 .about>p{
 	font-size: 1.15em;
 	padding: 2% 15%;
+	line-height: 1.5;
 }
 @media screen and (max-width: 480px){
 	.about>h1{

@@ -82,7 +82,7 @@ class Header extends Component {
            </div>
            <div className="head-2 container-fluid">
               <div className="contact-mobile row">
-                <a href="#" style={{color: 'red', fontWeight: 'bold'}} className="col-2">000-0000-0000</a>
+                <NavLink to={this.props.mainRoute[3].path} className="col-3">0903.8.29137</NavLink>
                 <a href="#" className="col-4">Xem Brochure</a>
                 <a href="#" className="col-3">Bản Demo</a>
                 <a href="#" className="col-2"><i className="fas fa-user-circle"></i></a>
