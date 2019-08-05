@@ -52,7 +52,7 @@
 	}
 	.visual-detail-figure>p:nth-child(2){
 		padding-left: 3%;
-		font-size: 1.5em;
+		font-size: 1em;
 	}
 	.visual-detail-left>button{
 		padding: 3%;
@@ -122,8 +122,12 @@
       border-top: 15px solid var(--blackColor);
     }
 @media screen and (max-width: 768px) {
-	.feature-content{
-		grid-template-columns: repeat(2, minmax(60%,1fr));
+	.feature-content-detail{
+		grid-row-gap: 5%;
+		grid-template-columns: repeat(2, minmax(70%,1fr));
+	}
+	.feature-content-detail p:nth-child(2n){
+		text-align: left;
 	}
 	.diamond-top{
 		display: none;
